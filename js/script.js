@@ -51,6 +51,17 @@ window.addEventListener("keyup", function () {
 	
 });
 
+/* info buttons listeners */
+document.getElementById("btnwho").addEventListener("click", function(){
+	SmoothScrollUp(document.getElementById("who"));
+});
+document.getElementById("btnwhat").addEventListener("click", function(){
+	SmoothScrollUp(document.getElementById("what"));
+});
+document.getElementById("btnwhy").addEventListener("click", function(){
+	SmoothScrollUp(document.getElementById("why"));
+});
+
 /* navbar button pressevent */
 function registerNavbarEvents() {
 	
