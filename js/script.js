@@ -200,6 +200,14 @@ function carousel(x) {
 			
 			a[i].style.display = "inline-block";
 			
+		}else if((i == 0) && (x < 0)) {
+			
+			a[i].style.display = "none";
+			
+			i = 2;
+			
+			a[i].style.display = "inline-block";
+			
 		}else{
 			
 			a[i].style.display = "none";
