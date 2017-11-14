@@ -61,6 +61,9 @@ document.getElementById("btnwhat").addEventListener("click", function(){
 document.getElementById("btnwhy").addEventListener("click", function(){
 	SmoothScrollUp(document.getElementById("why"));
 });
+document.getElementById("btnmap").addEventListener("click", function(){
+	window.location.assign("http://www.blog.gg-pi.tk/#mindmap");
+});
 
 /* navbar button pressevent */
 function registerNavbarEvents() {
