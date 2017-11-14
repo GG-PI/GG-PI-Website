@@ -27,6 +27,30 @@ window.addEventListener("load", function(){
 	
 });
 
+/* keypress for carousel */
+window.addEventListener("keyup", function () {
+	
+	var code = event.keyCode;
+	
+	/* left arrow */
+	if(code == 37){
+		
+		clearTimeout(id);
+		t = false;
+		
+		carousel(-1);
+		
+	}else if(code == 39){/* right arrow */
+		
+		clearTimeout(id);
+		t = false;
+		
+		carousel(1);
+		
+	}
+	
+});
+
 /* navbar button pressevent */
 function registerNavbarEvents() {
 	
